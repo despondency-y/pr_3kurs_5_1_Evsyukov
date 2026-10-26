@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/city"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/for_city"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/btnGetWeather"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/for_btnGetWeather"
+        android:layout_marginTop="8dp"/>
+
+    <TextView
+        android:id="@+id/tvWeatherResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/for_tvWeatherResult"
+        android:textSize="16sp" />
+
+</LinearLayout>
